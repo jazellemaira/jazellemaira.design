@@ -1,74 +1,152 @@
 * {
-    margin: 0
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
-    font-family: Eyesome-Script;
-    src: url(https://font-public.canva.com/YAFMT3WXROc/0/Eyesome-Script.4638b439ad9e2117967846f2c.d331d3d1e15d64a9b3865e1e5e8a4f7c.woff2) format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: Eyesome-Script;
+  src: url(https://font-public.canva.com/YAFMT3WXROc/0/Eyesome-Script.4638b439ad9e2117967846f2c.d331d3d1e15d64a9b3865e1e5e8a4f7c.woff2)
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: Etna;
-    src: url(https://font-public.canva.com/YADiGTsvS-0/0/Etna-Typeface7608483012636858831.f9a008a.6d452b1046bdb81497ae3d95ac0ba0f0.woff2) format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: Etna;
+  src: url(https://font-public.canva.com/YADiGTsvS-0/0/Etna-Typeface7608483012636858831.f9a008a.6d452b1046bdb81497ae3d95ac0ba0f0.woff2)
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: Nourd;
-    src: url(https://font-public.canva.com/YAD7UEhpH6I/0/Nourd-Medium.28df5fbc175fe1892abe2d179e0.8d1b33039ecfeb48762f4e6262fd476f.woff2) format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: Nourd;
+  src: url(https://font-public.canva.com/YAD7UEhpH6I/0/Nourd-Medium.28df5fbc175fe1892abe2d179e0.8d1b33039ecfeb48762f4e6262fd476f.woff2)
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: Nourd;
-    src: url(https://font-public.canva.com/YAD7UKfPF1E/0/Nourd-Heavy.66e180a817b00d1d25ace93b9420.92cf09d53cab83a4570594653c6c5816.woff2) format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: Nourd;
+  src: url(https://font-public.canva.com/YAD7UKfPF1E/0/Nourd-Heavy.66e180a817b00d1d25ace93b9420.92cf09d53cab83a4570594653c6c5816.woff2)
+    format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-background: #e5dbd7;
+  background: #e5dbd7;
 }
 
 .sticky-navbar {
-    align-items: center;
-    position: sticky;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: auto;
-    z-index: 999;
-    padding-bottom: 16px;
-    background: linear-gradient(rgb(83, 81, 80), rgb(130, 127, 125,0));
-    /* background-color: rgba(6, 6, 6, 0.744); */
-    display: flex;
-    justify-content: space-between;
-  }
+  align-items: center;
+  position: sticky;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 999;
+  padding-bottom: 16px;
+  background: linear-gradient(rgb(83, 81, 80), rgb(130, 127, 125, 0));
+  /* background-color: rgba(6, 6, 6, 0.744); */
+  display: flex;
+  justify-content: space-between;
+}
 
 #page-logo img {
-    padding-left: 44px;
-    padding-top: 20px;
-    width: 80px;
+  padding-left: 44px;
+  padding-top: 20px;
+  width: 80px;
 }
 
 #page-logo a {
-    color: hsl(0, 0%, 45%);
-    font-size: 50px;
-    font-family: "Etna", sans-serif;
-    text-decoration: none;
-    text-shadow: 1px 1px 2px black;
+  color: #737373;
+  font-size: 50px;
+  font-family: "Etna", "Franklin Gothic Medium", sans-serif;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
 }
 
 .menu-container img {
-    padding-top: 10px;
-    padding-right: 44px;
-    width: 70px;
+  padding-top: 10px;
+  padding-right: 44px;
+  width: 70px;
+}
+
+.hero-container {
+  min-height: auto;
+  height: 900px;
+  background-image: url("/images/background.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll, fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hero-text {
+  max-width: 70%;
+  text-align: center;
+  padding: 60px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+
+.hero-text h1 {
+  color: #000000;
+  font-family: "Eyesome-Script", sans-serif;
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+.hero-text {
+  color: #343333;
+  font-family: "Etna", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 70px;
+}
+
+.highlight-words {
+    color:#9E7DE4;
+}
+
+.highlight-words:hover {
+    color: #8B5AF1;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 250px;
+  }
+
+.button-yellow {
+    display: inline-block;
+    padding: 15px 45px;
+    background-color: #F8D67F;
+    border-radius: 50px;
+    transition: all 200ms ease;
+    font-family: "Nourd", sans-serif;
+    color: #343333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.button-yellow:hover {
+    background-color: #f9ce30;
+    color: #e5dbd7;
 }
