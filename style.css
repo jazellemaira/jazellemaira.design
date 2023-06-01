@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Eyesome-Script;
+    src: url(https://font-public.canva.com/YAFMT3WXROc/0/Eyesome-Script.4638b439ad9e2117967846f2c.d331d3d1e15d64a9b3865e1e5e8a4f7c.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Etna;
+    src: url(https://font-public.canva.com/YADiGTsvS-0/0/Etna-Typeface7608483012636858831.f9a008a.6d452b1046bdb81497ae3d95ac0ba0f0.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Nourd;
+    src: url(https://font-public.canva.com/YAD7UEhpH6I/0/Nourd-Medium.28df5fbc175fe1892abe2d179e0.8d1b33039ecfeb48762f4e6262fd476f.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Nourd;
+    src: url(https://font-public.canva.com/YAD7UKfPF1E/0/Nourd-Heavy.66e180a817b00d1d25ace93b9420.92cf09d53cab83a4570594653c6c5816.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
