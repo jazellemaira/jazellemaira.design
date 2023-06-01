@@ -1,3 +1,7 @@
+* {
+    margin: 0
+}
+
 @font-face {
     font-family: Eyesome-Script;
     src: url(https://font-public.canva.com/YAFMT3WXROc/0/Eyesome-Script.4638b439ad9e2117967846f2c.d331d3d1e15d64a9b3865e1e5e8a4f7c.woff2) format('woff2');
@@ -30,16 +34,41 @@
     font-display: swap;
 }
 
+body {
+background: #e5dbd7;
+}
+
+.sticky-navbar {
+    align-items: center;
+    position: sticky;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 999;
+    padding-bottom: 16px;
+    background: linear-gradient(rgb(83, 81, 80), rgb(130, 127, 125,0));
+    /* background-color: rgba(6, 6, 6, 0.744); */
+    display: flex;
+    justify-content: space-between;
+  }
+
 #page-logo img {
-    padding-left: 36px;
+    padding-left: 44px;
     padding-top: 20px;
-    width: 50px;
+    width: 80px;
 }
 
 #page-logo a {
     color: hsl(0, 0%, 45%);
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Etna", sans-serif;
     text-decoration: none;
     text-shadow: 1px 1px 2px black;
+}
+
+.menu-container img {
+    padding-top: 10px;
+    padding-right: 44px;
+    width: 70px;
 }
