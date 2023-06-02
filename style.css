@@ -74,8 +74,7 @@ body {
 }
 
 #page-logo a:hover {
-  color: #8b5af1;
-  transition: all 0.45s ease;
+  color: rgb(158, 125, 228, .85);
 }
 
 .menu-container img {
@@ -134,7 +133,6 @@ body {
 
 .highlight-words:hover {
   color: #8b5af1;
-  transition: all 0.8s ease;
 }
 
 .button-flex {
