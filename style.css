@@ -81,10 +81,10 @@ body {
   padding-top: 10px;
   padding-right: 44px;
   width: 70px;
+  transition: all 0.45s ease;
 }
 
 .menu-container img:hover {
-  transition: all 0.45s ease;
   filter: grayscale();
 }
 
