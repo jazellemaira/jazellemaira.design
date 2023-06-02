@@ -70,6 +70,7 @@ body {
   font-family: "Etna", "Franklin Gothic Medium", sans-serif;
   text-decoration: none;
   text-shadow: 1px 1px 2px black;
+  transition: all 0.45s ease;
 }
 
 #page-logo a:hover {
@@ -128,6 +129,7 @@ body {
 
 .highlight-words {
   color: #9e7de4;
+  transition: all 0.8s ease;
 }
 
 .highlight-words:hover {
