@@ -145,13 +145,13 @@ body {
 
 .button-yellow {
   display: inline-block;
-  padding: 15px 45px;
+  padding: 15px 60px;
   background-color: #f8d67f;
   border-radius: 50px;
   transition: all 0.45s ease;
   font-family: "Nourd", sans-serif;
   color: #343333;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   letter-spacing: 1px;
