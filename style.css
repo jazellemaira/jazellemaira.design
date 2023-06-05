@@ -164,6 +164,13 @@ body {
   color: #a6a6a6;
 }
 
+.section-about {
+    background-image: url("/images/pastel-overlays/orange-blue-yellow.png");
+    background-position: 0px 0px, 50% 100%;
+    background-size: cover;
+    background-attachment: scroll, fixed;   
+ }
+
 .section-about._50px {
   padding-top: 50px;
 }
