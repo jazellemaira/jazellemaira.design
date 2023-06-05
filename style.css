@@ -74,7 +74,7 @@ body {
 }
 
 #page-logo a:hover {
-  color: rgb(158, 125, 228, .85);
+  color: rgb(158, 125, 228, 0.85);
 }
 
 .menu-container img {
@@ -165,11 +165,11 @@ body {
 }
 
 .section-about {
-    background-image: url("/images/pastel-overlays/orange-blue-yellow.png");
-    background-position: 0px 0px, 50% 100%;
-    background-size: cover;
-    background-attachment: scroll, fixed;   
- }
+  background-image: url("/images/pastel-overlays/orange-blue-yellow.png");
+  background-position: 0px 0px, 50% 100%;
+  background-size: cover;
+  background-attachment: scroll, fixed;
+}
 
 .section-about._50px {
   padding-top: 50px;
@@ -207,7 +207,7 @@ body {
   flex: 0 0 auto;
   border-radius: 30px;
   background-color: rgba(128, 128, 128, 0.161);
-  transition: all 300ms ease;
+  transition: all 500ms ease;
 }
 
 .features-wrapper:hover {
@@ -232,4 +232,87 @@ body {
   color: #343333;
   font-size: 24px;
   font-weight: regular;
+}
+
+.margin-60px-features {
+  margin-top: 140px;
+}
+
+.steps-grid {
+  display: grid;
+  max-width: 85%;
+  margin-top: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 160px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+}
+
+.steps-box {
+  padding: 200px 15px 40px 15px;
+  border-radius: 20px;
+  background-color: #20222e;
+  box-shadow: 1px 1px 8px #fff;
+  text-align: center;
+  transition: all 900ms ease-in-out;
+}
+
+#step-one {
+  background-image: linear-gradient(125deg, #ac75da, #d48db4);
+}
+
+#step-two {
+  background-image: linear-gradient(75deg, #a0b2d0, #8b6be5);
+}
+
+#step-three {
+  background-image: linear-gradient(145deg, #f0deba, #a575e2);
+}
+.steps-box:hover {
+  transform: scale(1.2);
+}
+
+.caption-box {
+  padding-right: 25px;
+  padding-left: 25px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
+  color: #20222e;
+}
+
+.caption-box img {
+  width: 200px;
+  position: absolute;
+  top: -280px;
+  right: 100rem;
+  left: 30%;
+  filter: drop-shadow(0 0 0.25rem #fff);
+  z-index: -1;
+}
+
+#lotus {
+  width: 220px;
+  top: -220px;
+  right: 100rem;
+  left: 18%;
+}
+
+.steps-title {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: "Nourd", sans-serif;
+  font-weight: bold;
+  text-shadow: 0.25px 0.25px 0.35px #fff;
+  transition: all 0.65s ease;
+}
+
+.caption-box p {
+  color: #343333;
+  font-size: 16px;
+  font-family: "Nourd", sans-serif;
 }
