@@ -337,6 +337,6 @@ body {
   color: #000;
   font-size: 40px;
   font-family: "Etna", "Franklin Gothic Medium", sans-serif;
-  text-shadow: 1px 1px 2px #fff;
+  text-shadow: 1px 1px .75px #fff;
   transition: all 0.45s ease;
 }
