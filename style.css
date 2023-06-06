@@ -329,6 +329,6 @@ body {
   background-position: 0px 0px, 50% 100%;
   background-size: cover;
   background-attachment: scroll, fixed;
-  filter: opacity(.75);
+  filter: opacity(0.75);
   margin-top: 100px;
 }
