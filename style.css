@@ -332,3 +332,11 @@ body {
   filter: opacity(0.75);
   margin-top: 100px;
 }
+
+.projects-section h3 {
+  color: #000;
+  font-size: 40px;
+  font-family: "Etna", "Franklin Gothic Medium", sans-serif;
+  text-shadow: 1px 1px 2px #fff;
+  transition: all 0.45s ease;
+}
