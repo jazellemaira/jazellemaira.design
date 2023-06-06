@@ -316,3 +316,19 @@ body {
   font-size: 16px;
   font-family: "Nourd", sans-serif;
 }
+
+.max-w-width {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.projects-section {
+  background-image: url("/images/pastel-overlays/purple-orange.png");
+  background-position: 0px 0px, 50% 100%;
+  background-size: cover;
+  background-attachment: scroll, fixed;
+  filter: opacity(.75);
+  margin-top: 100px;
+}
