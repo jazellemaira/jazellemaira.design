@@ -340,3 +340,9 @@ body {
   text-shadow: 1px 1px .75px #fff;
   transition: all 0.45s ease;
 }
+
+.projects-header-container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
