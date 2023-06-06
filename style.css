@@ -346,3 +346,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.projects-highlight {
+  position: absolute;
+  top: -5px;
+  left:51%;
+  transform:translateX(-51%);
+  width: 400px;
+  z-index: -1;
+}
+
