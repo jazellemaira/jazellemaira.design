@@ -325,12 +325,10 @@ body {
 }
 
 .projects-section {
-  background-image: url("/images/pastel-overlays/purple-orange.png");
-  background-position: 0px 0px, 50% 100%;
-  background-size: cover;
-  background-attachment: scroll, fixed;
-  filter: opacity(0.75);
+  filter: opacity(1);
   margin-top: 130px;
+  padding-bottom: 200px;
+}
 }
 
 .projects-section h3 {
