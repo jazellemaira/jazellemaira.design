@@ -294,17 +294,15 @@ body {
   width: 200px;
   position: absolute;
   top: -280px;
-  right: 100rem;
-  left: 30%;
+  left: 51%;
+  transform: translateX(-51%);
   filter: drop-shadow(0 0 0.25rem #fff);
   z-index: -1;
 }
 
 #lotus {
   width: 220px;
-  top: -220px;
-  right: 100rem;
-  left: 18%;
+  top: -220px;  
 }
 
 .steps-title {
