@@ -107,6 +107,10 @@ body {
   margin: 0;
 }
 
+.margin-container-hero {
+  margin-top: 30px;
+}
+
 .hero-text {
   color: #343333;
   font-family: "Etna", "Franklin Gothic Medium", "Arial Narrow", Arial,
@@ -329,6 +333,12 @@ body {
   margin-top: 130px;
   padding-bottom: 200px;
 }
+
+.section-bg {
+  position: absolute;
+  filter: opacity(.65);
+  overflow: hidden;
+  z-index: -1;
 }
 
 .projects-section h3 {
