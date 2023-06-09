@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -41,6 +42,8 @@
 
 body {
   background: #e5dbd7;
+  font-family: "Nourd", sans-serif;
+  color: #141414;
 }
 
 .sticky-navbar {
@@ -92,7 +95,7 @@ body {
   position: relative;
   display: flex;
   min-height: 70vh;
-  padding: 100px 5% 65px;
+  padding: 100px 5% 50px;
   justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
@@ -105,6 +108,7 @@ body {
 
 .hero-container {
   margin: 0;
+  max-width: 70%;
 }
 
 .margin-container-hero {
@@ -115,8 +119,8 @@ body {
   color: #343333;
   font-family: "Etna", "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif;
-  font-size: 70px;
-  max-width: 70%;
+  font-size: 50px;
+  max-width: 90%;
   text-align: center;
   margin: 0 auto;
   position: relative;
@@ -127,7 +131,6 @@ body {
   color: #000000;
   font-family: "Eyesome-Script", sans-serif;
   font-size: 90px;
-  font-weight: bolder;
 }
 
 .highlight-words {
@@ -155,7 +158,7 @@ body {
   transition: all 0.45s ease;
   font-family: "Nourd", sans-serif;
   color: #343333;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
   letter-spacing: 1px;
@@ -165,7 +168,7 @@ body {
 
 .button-yellow:hover {
   background-color: #f9ce30;
-  color: #a6a6a6;
+  color: #fff;
 }
 
 .section-about {
@@ -302,7 +305,7 @@ body {
 
 #lotus {
   width: 220px;
-  top: -220px;  
+  top: -220px;
 }
 
 .steps-title {
