@@ -95,7 +95,7 @@ body {
   position: relative;
   display: flex;
   min-height: 70vh;
-  padding: 100px 5% 50px;
+  padding: 0px 2%;
   justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
@@ -108,7 +108,6 @@ body {
 
 .hero-container {
   margin: 0;
-  max-width: 70%;
 }
 
 .margin-container-hero {
@@ -158,7 +157,6 @@ body {
   transition: all 0.45s ease;
   font-family: "Nourd", sans-serif;
   color: #343333;
-  font-size: 24px;
   font-weight: bold;
   text-align: center;
   letter-spacing: 1px;
@@ -191,22 +189,22 @@ body {
 }
 
 .features-container {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .features-section {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .features-wrapper {
   display: flex;
+  max-width: 90%;
   margin-right: 25px;
   margin-bottom: 25px;
   padding: 10px 30px 10px 30px;
@@ -456,9 +454,6 @@ body {
 
 .button-black {
   padding: 10px 14px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
   display: inline-block;
   border-style: solid;
   border-width: 2px;
