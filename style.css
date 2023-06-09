@@ -40,10 +40,15 @@
   font-display: swap;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background: #e5dbd7;
   font-family: "Nourd", sans-serif;
   color: #141414;
+  overflow-x: hidden;
 }
 
 .sticky-navbar {
@@ -174,6 +179,7 @@ body {
   background-position: 0px 0px, 50% 100%;
   background-size: cover;
   background-attachment: scroll, fixed;
+  overflow-x: hidden;
 }
 
 .section-about._50px {
@@ -335,9 +341,10 @@ body {
 }
 
 .section-bg {
+  max-width: 90%;
   position: absolute;
   filter: opacity(0.65);
-  overflow: hidden;
+  overflow-x: hidden;
   z-index: -1;
 }
 
