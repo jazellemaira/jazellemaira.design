@@ -40,12 +40,14 @@
   font-display: swap;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background: #e5dbd7;
   font-family: "Nourd", sans-serif;
   color: #141414;
-  overflow-x: hidden;
-  overflow-y: scroll !important;
 }
 
 .sticky-navbar {
