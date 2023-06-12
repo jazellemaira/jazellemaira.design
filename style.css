@@ -88,6 +88,35 @@ body {
   filter: grayscale(0.65);
 }
 
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #e6dcd7;
+}
+
+.nav-list-item {
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.nav-list-item:hover {
+  background-color: rgb(158, 125, 228, 0.75);
+  padding-left: 15px;
+  color: hsla(0, 0%, 100%, 0.4);
+}
+
+.nav-list li {
+  padding: 10px 0;
+  transform: translateY(160px);
+  opacity: 1;
+  position: relative;
+}
+
 }
 
 .hero {
