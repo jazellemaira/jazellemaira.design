@@ -148,6 +148,24 @@ body {
   position: relative;
 }
 
+.popover .close::after {
+  right: 0.5em;
+  top: 1em;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #8b6be5;
+  color: #e5dbd7;
+  content: "×";
+  cursor: pointer;
+  opacity: 1;
+  animation: .5s fadeIn ease forwards 0.5s;
+}
 
 @keyframes grow {
   0% {
@@ -272,8 +290,8 @@ body {
 .features-section {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1080px; 
-  margin: 0 auto; 
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .features-wrapper {
@@ -320,7 +338,7 @@ body {
 .steps-grid {
   display: grid;
   max-width: 85%;
-  margin-top: 250px;
+  margin-top: 220px;
   margin-right: auto;
   margin-left: auto;
   grid-auto-columns: 1fr;
