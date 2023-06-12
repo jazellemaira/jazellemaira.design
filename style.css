@@ -89,6 +89,23 @@ body {
 }
 
 
+.content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  width: 0;
+  height: 0;
+  top: 0;
+  color: #343333;
+  background: linear-gradient(rgb(23 22 22), rgb(130, 127, 125, 0));
+  background-color: #e6dcd7;
+  font-family: "Etna", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  opacity: 0;
+  animation: 1s grow ease forwards;
+}
+
 .nav-list {
   list-style-type: none;
 }
