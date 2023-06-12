@@ -49,6 +49,7 @@ body {
   font-family: "Nourd", sans-serif;
   color: #141414;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .sticky-navbar {
