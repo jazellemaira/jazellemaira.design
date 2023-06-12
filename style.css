@@ -49,6 +49,7 @@ body {
   font-family: "Nourd", sans-serif;
   color: #141414;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .sticky-navbar {
@@ -73,7 +74,7 @@ body {
 }
 
 #page-logo img:hover {
-  filter: grayscale();
+  filter: grayscale(0.35);
 }
 
 .menu-container img {
@@ -84,7 +85,103 @@ body {
 }
 
 .menu-container img:hover {
-  filter: grayscale();
+  filter: grayscale(0.65);
+}
+
+.popover {
+  display: none;
+}
+
+.popover:target {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 1000%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  width: 0;
+  height: 0;
+  top: 0;
+  color: #343333;
+  background: linear-gradient(rgb(23 22 22), rgb(130, 127, 125, 0));
+  background-color: #e6dcd7;
+  font-family: "Etna", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  opacity: 0;
+  animation: 1s grow ease forwards;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #e6dcd7;
+}
+
+.nav-list-item {
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.nav-list-item:hover {
+  background-color: rgb(158, 125, 228, 0.75);
+  padding-left: 15px;
+  color: hsla(0, 0%, 100%, 0.4);
+}
+
+.nav-list li {
+  padding: 10px 0;
+  transform: translateY(160px);
+  opacity: 1;
+  position: relative;
+}
+
+.popover .close::after {
+  right: 0.5em;
+  top: 1em;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #8b6be5;
+  color: #e5dbd7;
+  content: "×";
+  cursor: pointer;
+  opacity: 1;
+  animation: .5s fadeIn ease forwards 0.5s;
+}
+
+@keyframes grow {
+  0% {
+    width: 100%;
+  }
+  100% {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
 }
 
 .hero {
@@ -193,8 +290,8 @@ body {
 .features-section {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1080px; 
-  margin: 0 auto; 
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .features-wrapper {
@@ -241,7 +338,7 @@ body {
 .steps-grid {
   display: grid;
   max-width: 85%;
-  margin-top: 250px;
+  margin-top: 220px;
   margin-right: auto;
   margin-left: auto;
   grid-auto-columns: 1fr;

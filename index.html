@@ -12,18 +12,34 @@
       <header class="sticky-navbar">
         <div id="page-logo">
           <a href="/">
-          <img
-            src="images/nav-bar/logo.png"
-            alt="An image of a cat paw print with Jazelle Maira Carillo initials"
-          />
-        </a>
+            <img
+              src="images/nav-bar/logo.png"
+              alt="An image of a cat paw print with Jazelle Maira Carillo initials"
+            />
+          </a>
         </div>
         <div class="menu-container">
-          <img src="/images/nav-bar/menu-bar.png" alt="Menu bar icon" />
+          <a href="#menu">
+            <img src="/images/nav-bar/menu-bar.png" alt="Menu bar icon" />
+          </a>
+        </div>
+        <div class="popover" id="menu">
+          <div class="content">
+            <a href="#" class="close"></a>
+            <div class="nav">
+              <ul class="nav-list">
+                <li class="nav-list-item"><a href="#">Home</a></li>
+                <li class="nav-list-item"><a href="#">About</a></li>
+                <li class="nav-list-item"><a href="#projects">Projects</a></li>
+                <li class="nav-list-item"><a href="#">Blog</a></li>
+                <li class="nav-list-item"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </header>
       <main>
-        <div class="hero">
+        <div id="top" class="hero">
           <div class="hero-container">
             <div class="hero-text">
               <h1>Hallo!</h1>
@@ -31,7 +47,7 @@
                 I create designs that are
                 <span class="highlight-words">intuitive</span>,
                 <span class="highlight-words">impactful</span>,
-                <span>and</span> 
+                <span>and</span>
                 <span class="highlight-words">human-centered</span>.
               </p>
             </div>
@@ -159,6 +175,7 @@
               </div>
             </div>
           </div>
+          <div id="projects"></div>
           <div class="projects-section">
             <img
               class="section-bg"
