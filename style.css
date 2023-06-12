@@ -74,7 +74,7 @@ body {
 }
 
 #page-logo img:hover {
-  filter: grayscale();
+  filter: grayscale(0.35);
 }
 
 .menu-container img {
@@ -85,7 +85,9 @@ body {
 }
 
 .menu-container img:hover {
-  filter: grayscale();
+  filter: grayscale(0.65);
+}
+
 }
 
 .hero {
