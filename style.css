@@ -262,7 +262,7 @@ body {
   color: #fff;
 }
 
-.section-about {
+.section-rest {
   background-image: url("/images/pastel-overlays/orange-blue-yellow.png");
   background-position: 0px 0px, 50% 100%;
   background-size: cover;
@@ -270,15 +270,15 @@ body {
   overflow-x: hidden;
 }
 
-.section-about._50px {
+.section-rest._50px {
   padding-top: 50px;
 }
 
-.section-about._50px.overflow {
+.section-rest._50px.overflow {
   padding: 135px 5% 135px;
 }
 
-.section-about.overflow {
+.section-rest.overflow {
   overflow: hidden;
 }
 
