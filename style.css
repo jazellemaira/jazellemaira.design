@@ -596,3 +596,20 @@ body {
   position: relative;
 }
 
+#circle-pattern {
+  max-width: 260px;
+  position: absolute;
+  position: absolute;
+  left: 9%;
+  transform: translateX(-9%);
+  filter: opacity(0.6);
+}
+
+#profile-photo {
+  width: 300px;
+  position: absolute;
+  top: -14rem;
+  left: 71%;
+  transform: translateX(-71%);
+}
+
