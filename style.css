@@ -591,3 +591,8 @@ body {
   max-width: 100%;
 }
 
+.about-images-container {
+  display: flex;
+  position: relative;
+}
+
