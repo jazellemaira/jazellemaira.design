@@ -425,7 +425,6 @@ body {
 .projects-section {
   filter: opacity(1);
   margin-top: 130px;
-  padding-bottom: 200px;
 }
 
 .section-bg {
@@ -589,6 +588,23 @@ body {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   max-width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .about-section {
+    padding-top: 340px;
+  }
+
+  .about-main {
+    grid-row-gap: 300px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    margin-left: 12px;
+  }
+
+  .socials-container i {
+    margin-left: 24px;
+  }
 }
 
 .about-images-container {
