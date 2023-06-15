@@ -580,3 +580,14 @@ body {
   margin-right: auto;
 }
 
+.about-main {
+  display: grid;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 44px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+}
+
