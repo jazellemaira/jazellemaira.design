@@ -353,6 +353,25 @@ body {
   max-width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .footer-grid {
+    grid-row-gap: 20px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  #left-side {
+    justify-self: start;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 2;
+  }
+  .bottom-section {
+    text-align: left;
+    justify-self: start;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .about-section {
     padding-top: 340px;
