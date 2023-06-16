@@ -714,3 +714,17 @@ body {
 #up-arrow {
   width: 20px;
 }
+
+.footer {
+  padding: 50px 2% 40px;
+  background: linear-gradient(rgb(229, 219, 215, 0), rgb(23, 22, 22));
+}
+
+.footer-container {
+  display: block;
+  max-width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-align: left;
+}
+
