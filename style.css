@@ -330,7 +330,7 @@ body {
   font-family: "Nourd", sans-serif;
   color: #343333;
   font-size: 24px;
-  font-weight: regular;
+  font-weight: normal;
 }
 
 .about-section {
@@ -690,4 +690,27 @@ body {
   background-color: #fff;
   background-image: none;
   color: #a575e2;
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 99;
+  border: none; 
+  background-color: #ab90e6; 
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 100%; 
+  transition: all 300ms ease;
+  animation: 1s fadeIn ease forwards 1s;
+}
+
+#myBtn:hover {
+  background-color: rgb(138, 91, 241, .85);
+}
+
+#up-arrow {
+  width: 20px;
 }
