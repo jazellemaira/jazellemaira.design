@@ -357,6 +357,11 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .hero-text {
+    font-size: 30px;
+    max-width: 90%;
+  }
+
   .footer-grid {
     grid-row-gap: 20px;
     -ms-grid-columns: 1fr;
