@@ -214,27 +214,29 @@ body {
   color: #343333;
   font-family: "Etna", "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif;
-  font-size: 50px;
-  max-width: 90%;
+  font-size: 60px;
+  max-width: 80%;
   text-align: center;
   margin: 0 auto;
   position: relative;
-  top: 150px;
+  top: 130px;
 }
 
 .hero-text h1 {
   color: #000000;
+  text-shadow: 1px 1px 2px #fff;
   font-family: "Eyesome-Script", sans-serif;
   font-size: 90px;
 }
 
 .highlight-words {
-  color: #9e7de4;
+  color: #a07cec;
+  text-shadow: 1px 1px 2px #fff;
   transition: all 0.8s ease;
 }
 
 .highlight-words:hover {
-  color: #8b5af1;
+  color: #7f4dec;
 }
 
 .button-flex {
