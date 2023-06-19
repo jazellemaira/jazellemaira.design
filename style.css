@@ -40,6 +40,23 @@
   font-display: swap;
 }
 
+@keyframes grow {
+  0% {
+    width: 100%;
+  }
+  100% {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
 html {
   overflow-x: hidden;
   overflow-y: scroll;
@@ -170,23 +187,6 @@ body {
   animation: 0.5s fadeIn ease forwards 0.5s;
 }
 
-@keyframes grow {
-  0% {
-    width: 100%;
-  }
-  100% {
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  100% {
-    opacity: 1;
-  }
-}
-
 .hero {
   position: relative;
   display: flex;
@@ -196,7 +196,7 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   background-color: #000;
-  background-image: url("/images/background.jpeg");
+  background-image: url("/images/background.png");
   background-position: 0px 0px, 50% 100%;
   background-size: cover;
   background-attachment: scroll, fixed;
@@ -214,27 +214,29 @@ body {
   color: #343333;
   font-family: "Etna", "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif;
-  font-size: 50px;
-  max-width: 90%;
+  font-size: 60px;
+  max-width: 80%;
   text-align: center;
   margin: 0 auto;
   position: relative;
-  top: 150px;
+  top: 130px;
 }
 
 .hero-text h1 {
   color: #000000;
+  text-shadow: 1px 1px 2px #fff;
   font-family: "Eyesome-Script", sans-serif;
   font-size: 90px;
 }
 
 .highlight-words {
-  color: #9e7de4;
+  color: #a07cec;
+  text-shadow: 1px 1px 2px #fff;
   transition: all 0.8s ease;
 }
 
 .highlight-words:hover {
-  color: #8b5af1;
+  color: #7f4dec;
 }
 
 .button-flex {
@@ -248,11 +250,13 @@ body {
 .button-yellow {
   display: inline-block;
   padding: 15px 60px;
-  background-color: #f8d67f;
+  background-color: #f8e766da;
   border-radius: 50px;
+  box-shadow: 1px 1px 10px rgb(115, 115, 115, 0.45);
   transition: all 0.45s ease;
   font-family: "Nourd", sans-serif;
   color: #343333;
+  text-shadow: 1px 1px 1px #fff;
   font-weight: bold;
   text-align: center;
   letter-spacing: 1px;
@@ -261,8 +265,8 @@ body {
 }
 
 .button-yellow:hover {
-  background-color: #f9ce30;
-  color: #fff;
+  background-color: #fae85a;
+  color: #959393;
 }
 
 .section-rest {
@@ -330,6 +334,7 @@ body {
   margin-bottom: 0px;
   font-family: "Nourd", sans-serif;
   color: #343333;
+  text-shadow: 1px 1px 1px #fff;
   font-size: 24px;
   font-weight: normal;
 }
@@ -355,6 +360,11 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .hero-text {
+    font-size: 30px;
+    max-width: 90%;
+  }
+
   .footer-grid {
     grid-row-gap: 20px;
     -ms-grid-columns: 1fr;
@@ -418,7 +428,7 @@ body {
   color: #000000;
   font-family: "Eyesome-Script", sans-serif;
   font-size: 40px;
-  text-shadow: 0.25px 0.25px 0.35px #fff;
+  text-shadow: 1px 1px 2px #fff;
   transition: all 0.65s ease;
   top: 7rem;
   left: 67%;
@@ -431,16 +441,18 @@ body {
 
 .about-caption p {
   padding-bottom: 14px;
+  text-shadow: .25px .25px 1px #fff;
 }
 
 .about-caption a {
   text-decoration: none;
-  color: rgb(158, 125, 228, 0.85);
+  color: rgba(160, 119, 247, 0.85);
+  font-weight: 700;
   transition: all 0.6s ease;
 }
 
 .about-caption a:hover {
-  color: #8b5af1;
+  color: #8350f3;
 }
 
 .socials-wrapper {
@@ -473,6 +485,7 @@ body {
   margin-top: 180px;
   margin-left: 8%;
   color: #000000;
+  text-shadow: 1px 1px 2px #fff;
   font-family: "Eyesome-Script", sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -497,6 +510,7 @@ body {
   padding: 200px 15px 40px 15px;
   border-radius: 20px;
   background-color: #20222e;
+  text-shadow: 0.25px 0.25px 0.25px #fff;
   box-shadow: 1px 1px 8px #fff;
   text-align: center;
   transition: all 900ms ease-in-out;
@@ -526,6 +540,7 @@ body {
   text-align: center;
   z-index: 3;
   color: #20222e;
+  text-shadow: 0.25px 0.25px 0.25px #fff;
 }
 
 .caption-box img {
@@ -548,7 +563,7 @@ body {
   font-size: 20px;
   font-family: "Nourd", sans-serif;
   font-weight: bold;
-  text-shadow: 0.25px 0.25px 0.35px #fff;
+  text-shadow: 0.45px 0.45px 0.45px #fff;
   transition: all 0.65s ease;
 }
 
@@ -582,7 +597,7 @@ body {
   color: #000;
   font-size: 40px;
   font-family: "Etna", "Franklin Gothic Medium", sans-serif;
-  text-shadow: 1px 1px 0.75px #fff;
+  text-shadow: .85px .85px 0.65px #fff;
   transition: all 0.45s ease;
 }
 
@@ -662,7 +677,7 @@ body {
   font-family: "Nourd", sans-serif;
   font-size: 26px;
   font-weight: bolder;
-  text-shadow: 0.25px 0.25px 0.35px #fff;
+  text-shadow: 0.55px 0.55px 0.45px #fff;
   transition: all 0.65s ease;
 }
 
@@ -680,6 +695,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   text-align: center;
+  text-shadow: 0.25px 0.25px 0.25px #fff;
   letter-spacing: 0.2px;
   margin-top: 10px;
 }
@@ -693,7 +709,7 @@ body {
   padding: 10px 14px;
   display: inline-block;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-radius: 50px;
   border-color: #fff;
   background-color: rgba(32, 34, 46, 0);
@@ -701,6 +717,7 @@ body {
   opacity: 1;
   font-family: "Nourd", sans-serif;
   color: #343333;
+  text-shadow: 0.25px 0.25px 0.25px #fff;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -710,7 +727,7 @@ body {
 .button-black:hover {
   background-color: #fff;
   background-image: none;
-  color: #a575e2;
+  color: #b686f4;
 }
 
 #myBtn {
@@ -765,7 +782,7 @@ body {
   font-family: "Eyesome-Script", sans-serif;
   font-size: 40px;
   font-weight: bold;
-  text-shadow: 0.25px 0.25px 0.35px #fff;
+  text-shadow: 1px 1px 0.85px #fff;
   transition: all 0.65s ease;
 }
 
@@ -773,7 +790,7 @@ body {
   width: 80%;
   margin-bottom: 10px;
   color: #141414;
-  text-shadow: 0.15px 0.15px 100px #ffffff;
+  text-shadow: 0.25px 0.25px 100px #ffffff;
   font-size: 17px;
   line-height: 24px;
   font-weight: 200;
@@ -783,6 +800,7 @@ body {
   display: inline-block;
   font-family: "Nourd", sans-serif;
   color: #141414;
+  font-weight: 700;
   text-decoration: none;
   transition: color 0.75s ease;
 }
@@ -795,7 +813,7 @@ body {
 .footer-link.bigger {
   margin-right: 12px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .footer-link.email {
@@ -816,8 +834,7 @@ body {
 }
 
 .copyright-container p {
-  color: #141414;
-  text-shadow: 0.25px 0.25px 100px #ffffff;
+  color: rgb(171, 144, 230, .65);
   text-align: end;
 }
 
@@ -840,6 +857,7 @@ body {
 
 .socials-container.copyright i {
   color: #141414;
+  text-shadow: 0.35px 0.35px 0.25px #fff;
   transition: color 0.85s ease;
 }
 
