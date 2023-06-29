@@ -401,6 +401,7 @@ body {
   .socials-container i {
     margin-left: 24px;
   }
+  
 }
 
 .about-images-container {
@@ -439,13 +440,13 @@ body {
 }
 
 .about-caption {
-  width: 90%;
+  width: 100%;
   overflow-y: hidden;
 }
 
 .about-caption p {
   padding-bottom: 14px;
-  text-shadow: .25px .25px 1px #fff;
+  text-shadow: 0.25px 0.25px 1px #fff;
 }
 
 .about-caption a {
@@ -602,7 +603,7 @@ body {
   color: #000;
   font-size: 40px;
   font-family: "Etna", "Franklin Gothic Medium", sans-serif;
-  text-shadow: .85px .85px 0.65px #fff;
+  text-shadow: 0.85px 0.85px 0.65px #fff;
   transition: all 0.45s ease;
 }
 
@@ -839,7 +840,7 @@ body {
 }
 
 .copyright-container p {
-  color: rgb(171, 144, 230, .65);
+  color: rgb(171, 144, 230, 0.65);
   text-align: end;
 }
 
