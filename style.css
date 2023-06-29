@@ -372,17 +372,22 @@ body {
     grid-template-columns: 1fr;
   }
 
-  #left-side {
-    justify-self: start;
-    grid-row-start: span 1;
-    grid-row-end: span 1;
-    grid-column-start: span 2;
-  }
   .bottom-section {
     text-align: left;
     justify-self: start;
   }
+
+  #left-side {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 2;
+  }
+
+  #right-end {
+    margin-left: 120px;
+  }
 }
+  
 
 @media screen and (max-width: 991px) {
   .about-section {
@@ -400,8 +405,7 @@ body {
 
   .socials-container i {
     margin-left: 24px;
-  }
-  
+  } 
 }
 
 .about-images-container {
