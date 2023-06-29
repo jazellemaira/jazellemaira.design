@@ -856,6 +856,7 @@ body {
 .socials-container.copyright {
   display: flex;
   position: absolute;
+  top: 6rem;
   left: 94%;
   transform: translateX(-94%);
   justify-content: space-between;
