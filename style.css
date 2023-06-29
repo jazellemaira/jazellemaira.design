@@ -437,6 +437,7 @@ body {
 
 .about-caption {
   width: 90%;
+  overflow-y: hidden;
 }
 
 .about-caption p {
