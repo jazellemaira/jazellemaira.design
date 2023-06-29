@@ -343,7 +343,8 @@ body {
   padding-top: 200px;
   padding-bottom: 130px;
   overflow-x: hidden;
-  max-width: 90%;
+  overflow-y: hidden;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -387,6 +388,7 @@ body {
   .about-section {
     padding-top: 340px;
     padding-bottom: 80px;
+    max-width: 90%;
   }
 
   .about-main {
@@ -399,6 +401,7 @@ body {
   .socials-container i {
     margin-left: 24px;
   }
+  
 }
 
 .about-images-container {
@@ -409,10 +412,10 @@ body {
 #circle-pattern {
   max-width: 260px;
   position: absolute;
-  position: absolute;
+  top: -14px;
   left: 9%;
   transform: translateX(-9%);
-  filter: opacity(0.6);
+  filter: opacity(0.75);
 }
 
 #profile-photo {
@@ -428,21 +431,22 @@ body {
   color: #000000;
   font-family: "Eyesome-Script", sans-serif;
   font-size: 40px;
+  inline-size: max-content;
   text-shadow: 1px 1px 2px #fff;
   transition: all 0.65s ease;
-  top: 7rem;
+  top: 8rem;
   left: 67%;
   transform: translateX(-67%);
 }
 
 .about-caption {
-  width: 90%;
+  width: 100%;
   overflow-y: hidden;
 }
 
 .about-caption p {
   padding-bottom: 14px;
-  text-shadow: .25px .25px 1px #fff;
+  text-shadow: 0.25px 0.25px 1px #fff;
 }
 
 .about-caption a {
@@ -459,12 +463,13 @@ body {
 .socials-wrapper {
   display: flex;
   position: relative;
+  margin-bottom: 24px;
 }
 
 .socials-container {
   display: flex;
   position: absolute;
-  top: 2rem;
+  top: 4rem;
   left: 27%;
   transform: translateX(-27%);
   justify-content: space-between;
@@ -598,7 +603,7 @@ body {
   color: #000;
   font-size: 40px;
   font-family: "Etna", "Franklin Gothic Medium", sans-serif;
-  text-shadow: .85px .85px 0.65px #fff;
+  text-shadow: 0.85px 0.85px 0.65px #fff;
   transition: all 0.45s ease;
 }
 
@@ -835,7 +840,7 @@ body {
 }
 
 .copyright-container p {
-  color: rgb(171, 144, 230, .65);
+  color: rgb(171, 144, 230, 0.65);
   text-align: end;
 }
 
