@@ -460,12 +460,13 @@ body {
 .socials-wrapper {
   display: flex;
   position: relative;
+  margin-bottom: 24px;
 }
 
 .socials-container {
   display: flex;
   position: absolute;
-  top: 2rem;
+  top: 4rem;
   left: 27%;
   transform: translateX(-27%);
   justify-content: space-between;
