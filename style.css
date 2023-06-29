@@ -410,7 +410,7 @@ body {
 #circle-pattern {
   max-width: 260px;
   position: absolute;
-  position: absolute;
+  top: -14px;
   left: 9%;
   transform: translateX(-9%);
   filter: opacity(0.6);
