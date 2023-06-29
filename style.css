@@ -388,6 +388,7 @@ body {
   .about-section {
     padding-top: 340px;
     padding-bottom: 80px;
+    max-width: 90%;
   }
 
   .about-main {
