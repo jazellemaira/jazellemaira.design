@@ -193,7 +193,7 @@ body {
   padding: 180px 2% 50px;
   align-items: center;
   background-color: #000;
-  background-image: url("/images/background.png");
+  background-image: url("/images/background.jpg");
   background-position: 0px 0px, 50% 100%;
   background-size: cover;
   background-attachment: scroll, fixed;
