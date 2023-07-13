@@ -88,24 +88,24 @@ body {
 
 #page-logo img {
   padding-left: 10%;
-  width: 130px;
+  width: 80px;
   filter: drop-shadow(0 0 0.25rem #fff);
   transition: all 0.85s ease;
 }
 
 #page-logo img:hover {
-  filter: grayscale(0.35);
+  filter: grayscale(0.25);
 }
 
 .menu-container img {
   padding-right: 30%;
   width: 70px;
-  filter: drop-shadow(0 0 0.009rem #fff);
+  filter: drop-shadow(0 0 0.005rem #fff);
   transition: all 0.85s ease;
 }
 
 .menu-container img:hover {
-  filter: grayscale(0.65);
+  filter: grayscale(0.45);
 }
 
 .popover {
@@ -189,11 +189,8 @@ body {
 
 .hero {
   position: relative;
-  display: flex;
   min-height: 70vh;
-  padding: 200px 2% 50px;
-  justify-content: center;
-  flex-wrap: nowrap;
+  padding: 180px 2% 50px;
   align-items: center;
   background-color: #000;
   background-image: url("/images/background.png");
@@ -202,8 +199,21 @@ body {
   background-attachment: scroll, fixed;
 }
 
-.hero-container {
-  margin: 0;
+.hero-wrapper {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-grid {
+  display: grid;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 44px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
 }
 
 .margin-container-hero {
@@ -212,21 +222,37 @@ body {
 
 .hero-text {
   color: #343333;
-  font-family: "Etna", "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: "Nourd", "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif;
-  font-size: 60px;
-  max-width: 80%;
   text-align: center;
-  margin: 0 auto;
-  position: relative;
-  top: 130px;
+  max-width: 100%;
 }
 
 .hero-text h1 {
   color: #000000;
   text-shadow: 1px 1px 2px #fff;
   font-family: "Eyesome-Script", sans-serif;
-  font-size: 90px;
+  font-size: 40px;
+  inline-size: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-text h2 {
+  color: #000000;
+  text-shadow: 1px 1px 2px #fff;
+  font-family: "Etna", sans-serif;
+  font-size: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  inline-size: max-content;
+}
+
+.hero-text p {
+  max-width: 80%;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .highlight-words {
@@ -239,17 +265,29 @@ body {
   color: #7f4dec;
 }
 
+.hero-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image img {
+  width: 450px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button-flex {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 .button-yellow {
   display: inline-block;
-  padding: 15px 60px;
+  padding: 10px 40px;
   background-color: #f8e766da;
   border-radius: 50px;
   box-shadow: 1px 1px 10px rgb(115, 115, 115, 0.45);
@@ -282,7 +320,7 @@ body {
 }
 
 .section-rest._50px.overflow {
-  padding: 135px 5% 135px;
+  padding: 90px 5% 135px;
 }
 
 .section-rest.overflow {
@@ -361,9 +399,35 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .hero-text {
+  .hero-wrapper {
+    max-width: 80%;
+  }
+
+  .hero-grid {
+    grid-row-gap: 20px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text h1 {
     font-size: 30px;
+  }
+
+  .hero-text h2 {
+    font-size: 26px;
+  } 
+
+  .hero-text p {
     max-width: 90%;
+    font-size: 16px;
+  }
+
+  .hero-image {
+    padding-top: 20px;
+  }
+
+  .hero-image img {
+    width: 250px;
   }
 
   .footer-grid {
@@ -387,9 +451,12 @@ body {
     margin-left: 120px;
   }
 }
-  
 
 @media screen and (max-width: 991px) {
+  .hero-container {
+    max-width: 80%;
+  }
+
   .about-section {
     padding-top: 340px;
     padding-bottom: 80px;
@@ -405,7 +472,7 @@ body {
 
   .socials-container i {
     margin-left: 24px;
-  } 
+  }
 }
 
 .about-images-container {
