@@ -64,10 +64,9 @@ html {
 }
 
 body {
-  background: #141414;
   background: #171616;
   font-family: "Nourd", sans-serif;
-  color: #141414;
+  color: #f0ece5;
   overflow-x: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -95,14 +94,14 @@ body {
 }
 
 #page-logo img:hover {
-  filter: drop-shadow(0 0 0.15rem #c3a6ff);
+  filter: drop-shadow(0 0 .05rem #c3a6ff);
 }
 
 .menu-container img {
   padding-right: 30%;
   width: 70px;
   transition: all 0.85s ease;
-  filter: grayscale(.75);
+  filter: grayscale(.95);
 }
 
 .menu-container img:hover {
