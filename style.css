@@ -94,19 +94,18 @@ body {
 }
 
 #page-logo img:hover {
-  filter: grayscale(0.25);
-  filter: drop-shadow(0 0 0.25rem #fff);
+  filter: drop-shadow(0 0 0.15rem #c3a6ff);
 }
 
 .menu-container img {
   padding-right: 30%;
   width: 70px;
-  filter: drop-shadow(0 0 0.005rem #fff);
   transition: all 0.85s ease;
+  filter: grayscale(.75);
 }
 
 .menu-container img:hover {
-  filter: grayscale(0.45);
+  filter: grayscale(.15);
 }
 
 .popover {
