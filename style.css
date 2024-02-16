@@ -73,8 +73,8 @@ body {
 }
 
 .sticky-navbar {
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   left: 0%;
@@ -82,8 +82,8 @@ body {
   right: 0%;
   bottom: auto;
   z-index: 999;
-  background: linear-gradient(rgb(23 22 22), rgb(130, 127, 125, 0));
-  background-color: rgba(229, 219, 215, 0.75);
+  background: linear-gradient(rgb(0, 0, 0), rgb(10, 10, 10, .4));
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #page-logo img {
