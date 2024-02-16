@@ -87,7 +87,7 @@ body {
 }
 
 #page-logo img {
-  padding-left: 10%;
+  padding-left: 20%;
   width: 80px;
   filter: invert(1);
   transition: all 0.85s ease;
