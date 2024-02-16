@@ -89,12 +89,13 @@ body {
 #page-logo img {
   padding-left: 10%;
   width: 80px;
-  filter: drop-shadow(0 0 0.25rem #fff);
+  filter: invert(1);
   transition: all 0.85s ease;
 }
 
 #page-logo img:hover {
   filter: grayscale(0.25);
+  filter: drop-shadow(0 0 0.25rem #fff);
 }
 
 .menu-container img {
