@@ -82,8 +82,8 @@ body {
   right: 0%;
   bottom: auto;
   z-index: 999;
-  background: linear-gradient(rgb(0, 0, 0), rgb(10, 10, 10, .4));
-  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(rgb(0, 0, 0), rgb(10, 10, 10, .6));
+  background-color: rgba(0, 0, 0, .4);
 }
 
 #page-logo img {
