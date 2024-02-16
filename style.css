@@ -192,8 +192,11 @@ body {
   min-height: 70vh;
   padding: 180px 2% 50px;
   align-items: center;
-  background-color: #000;
-  background-image: url("/images/background.jpg");
+  background-color: rgb(10, 10, 10, .85);
+  background-image: url("images/background-geordanna-cordero-unsplash.jpg");
+  background-blend-mode: soft-light;
+  background-blend-mode: multiply;
+  filter: opacity(.7);
   background-position: 0px 0px, 50% 100%;
   background-size: cover;
   background-attachment: scroll, fixed;
