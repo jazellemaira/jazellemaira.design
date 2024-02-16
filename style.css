@@ -224,43 +224,35 @@ body {
 }
 
 .hero-text {
-  color: #343333;
-  font-family: "Nourd", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
   text-align: center;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-text h1 {
-  color: #000000;
-  text-shadow: 1px 1px 2px #fff;
+  color: #b9f2e5;
   font-family: "Eyesome-Script", sans-serif;
-  font-size: 40px;
+  font-size: 2.75em;
   inline-size: max-content;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-text h2 {
-  color: #000000;
-  text-shadow: 1px 1px 2px #fff;
   font-family: "Etna", sans-serif;
-  font-size: 36px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 2.5em;
+  color: white;
+  margin-top: 15px;
   inline-size: max-content;
 }
 
 .hero-text p {
+  margin-top: 10px;
   max-width: 80%;
-  font-size: 22px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1.85em;
 }
 
 .highlight-words {
-  color: #a07cec;
-  text-shadow: 1px 1px 2px #fff;
+  color: #c3a6ff;
   transition: all 0.8s ease;
 }
 
@@ -268,13 +260,12 @@ body {
   color: #7f4dec;
 }
 
-.hero-image {
+.hero-image-container {
   display: flex;
   flex-direction: column;
 }
 
-.hero-image img {
-  width: 450px;
+.hero-image {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
