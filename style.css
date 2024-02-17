@@ -265,16 +265,16 @@ body {
 }
 
 .hero-image {
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 .button-flex {
   display: flex;
   justify-content: center;
-  margin-top: 0;
-  padding-top: 30px;
-  padding-bottom: 60px;
+  margin-top: 20px;
+  padding-bottom: 100px;
 }
 
 .button {
@@ -301,7 +301,6 @@ body {
 }
 
 .section-rest {
-  /* background-position: 0px 0px, 50% 100%; */
   overflow-x: hidden;
 }
 
