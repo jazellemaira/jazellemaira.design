@@ -612,18 +612,18 @@ body {
 }
 
 .caption-box img {
-  width: 200px;
+  max-width: 360px;
   position: absolute;
-  top: -280px;
+  top: -180px;
   left: 51%;
   transform: translateX(-51%);
-  filter: drop-shadow(0 0 0.25rem #fff);
+  filter: drop-shadow(1px 1px .25rem black);
   z-index: -1;
 }
 
 #lotus {
-  width: 220px;
-  top: -220px;
+  width: 190px;
+  top: -105px;
 }
 
 .steps-title {
