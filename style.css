@@ -565,19 +565,19 @@ body {
 
 .steps-grid {
   display: grid;
-  max-width: 85%;
-  margin-top: 100px;
+  max-width: 90%;
+  margin-top: 280px;
   margin-right: auto;
   margin-left: auto;
   grid-auto-columns: 1fr;
-  grid-column-gap: 30px;
+  grid-column-gap: 50px;
   grid-row-gap: 160px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: auto;
 }
 
 .steps-box {
-  padding: 200px 15px 40px 15px;
+  padding: 0;
   border-radius: 20px;
   background-color: #20222e;
   text-shadow: 0.25px 0.25px 0.25px #fff;
@@ -603,13 +603,12 @@ body {
 }
 
 .caption-box {
-  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
   position: relative;
-  justify-content: center;
-  text-align: center;
+  padding: 30px 10px;
   z-index: 3;
   color: #20222e;
-  text-shadow: 0.25px 0.25px 0.25px #fff;
 }
 
 .caption-box img {
@@ -630,7 +629,6 @@ body {
 .steps-title {
   padding-bottom: 10px;
   font-size: 20px;
-  font-family: "Nourd", sans-serif;
   font-weight: bold;
   text-shadow: 0.45px 0.45px 0.45px #fff;
   transition: all 0.65s ease;
@@ -638,8 +636,9 @@ body {
 
 .caption-box p {
   color: #343333;
-  font-size: 16px;
-  font-family: "Nourd", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.15em;
 }
 
 .max-w-width {
