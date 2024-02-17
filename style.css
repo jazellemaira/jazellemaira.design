@@ -67,6 +67,7 @@ body {
   background: #171616;
   font-family: "Nourd", sans-serif;
   color: #f0ece5;
+  text-shadow: 1px 1px 5px black;
   overflow-x: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -292,6 +293,7 @@ body {
 .button-primary {
   background-color: rgba(66, 66, 66, .9);
   color: #c3a6ff;
+  text-shadow: 1px 1px 2px black;
   transition: all 0.45s ease;
 }
 
@@ -497,7 +499,6 @@ body {
   font-family: "Eyesome-Script", sans-serif;
   font-size: 2.5em;
   inline-size: max-content;
-  text-shadow: 1px 1px 2px black;
   transition: all 0.65s ease;
   top: 8rem;
   left: 65%;
@@ -510,7 +511,6 @@ body {
 }
 
 .about-caption p {
-  color: #ffffff;
   padding-bottom: 14px;
   font-size: 1.25em;
   padding-left: 15px;
