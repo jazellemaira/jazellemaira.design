@@ -372,8 +372,7 @@ body {
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: scroll, fixed;
-  padding-top: 200px;
-  padding-bottom: 130px;
+  padding: 130px 0;
   overflow-x: hidden;
   overflow-y: hidden;
   max-width: 100%;
@@ -453,7 +452,7 @@ body {
   }
 
   .about-section {
-    padding-top: 300px;
+    padding-top: 260px;
     padding-bottom: 160px;
     max-width: 100%;
   }
