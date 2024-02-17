@@ -367,8 +367,8 @@ body {
 
 .about-section {
   background-image: url("images/pastel-overlays/purple-mint-yellow.png");
-  background-color: rgba(29, 31, 31, 0.4);
-  background-blend-mode: luminosity;
+  background-color: rgba(29, 31, 31, 0.6);
+  background-blend-mode: multiply;
   background-size: cover;
   background-attachment: scroll, fixed;
   padding-top: 200px;
@@ -389,7 +389,7 @@ body {
   grid-row-gap: 16px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 @media screen and (max-width: 767px) {
@@ -452,9 +452,9 @@ body {
   }
 
   .about-section {
-    padding-top: 340px;
-    padding-bottom: 80px;
-    max-width: 90%;
+    padding-top: 260px;
+    padding-bottom: 160px;
+    max-width: 100%;
   }
 
   .about-main {
@@ -465,7 +465,8 @@ body {
   }
 
   .socials-container i {
-    margin-left: 24px;
+    margin-top: 30px;
+    margin-left: 58px;
   }
 }
 
@@ -475,12 +476,12 @@ body {
 }
 
 #circle-pattern {
-  max-width: 260px;
+  max-width: 350px;
   position: absolute;
-  top: -14px;
-  left: 9%;
-  transform: translateX(-9%);
-  filter: opacity(0.75);
+  top: -99px;
+  left: 15%;
+  transform: translateX(-10%);
+  filter: opacity(0.3);
 }
 
 #profile-photo {
@@ -493,15 +494,15 @@ body {
 
 .about-greeting {
   position: absolute;
-  color: #000000;
+  color: #a9dfd2;
   font-family: "Eyesome-Script", sans-serif;
-  font-size: 40px;
+  font-size: 2.5em;
   inline-size: max-content;
-  text-shadow: 1px 1px 2px #fff;
+  text-shadow: 1px 1px 2px black;
   transition: all 0.65s ease;
   top: 8rem;
-  left: 67%;
-  transform: translateX(-67%);
+  left: 65%;
+  transform: translateX(-65%);
 }
 
 .about-caption {
@@ -510,40 +511,42 @@ body {
 }
 
 .about-caption p {
+  color: #ffffff;
   padding-bottom: 14px;
-  text-shadow: 0.25px 0.25px 1px #fff;
+  font-size: 1.25em;
+  padding-left: 15px;
 }
 
 .about-caption a {
   text-decoration: none;
-  color: rgba(160, 119, 247, 0.85);
+  color: #ab90e6;
   font-weight: 700;
   transition: all 0.6s ease;
 }
 
 .about-caption a:hover {
-  color: #8350f3;
+  color: #7f4dec;
 }
 
 .socials-wrapper {
   display: flex;
   position: relative;
-  margin-bottom: 24px;
+  margin-bottom: 50px;
 }
 
 .socials-container {
   display: flex;
   position: absolute;
-  top: 4rem;
-  left: 27%;
-  transform: translateX(-27%);
-  justify-content: space-between;
+  top: .5rem;
+  left: 22%;
+  transform: translateX(-22%);
+  justify-content: space-around;
 }
 
 .socials-container i {
   padding-left: 20px;
-  font-size: 24px;
-  color: #737373;
+  font-size: 1.75em;
+  color: #ab90e6;
   transition: all 0.7s ease;
 }
 
