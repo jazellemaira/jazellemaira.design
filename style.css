@@ -197,7 +197,6 @@ body {
   background-blend-mode: soft-light;
   background-blend-mode: multiply;
   filter: opacity(.7);
-  background-position: 0px 0px, 50% 100%;
   background-size: cover;
   background-attachment: scroll, fixed;
 }
@@ -269,6 +268,7 @@ body {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin: 0 auto;
 }
 
 .button-flex {
@@ -279,16 +279,12 @@ body {
   padding-bottom: 60px;
 }
 
-.button-yellow {
+.button {
   display: inline-block;
-  padding: 10px 40px;
-  background-color: #f8e766da;
+  padding: 10px 30px;
   border-radius: 50px;
-  box-shadow: 1px 1px 10px rgb(115, 115, 115, 0.45);
-  transition: all 0.45s ease;
+  box-shadow: 1px 1px 10px rgba(31, 31, 31, 0.85);
   font-family: "Nourd", sans-serif;
-  color: #343333;
-  text-shadow: 1px 1px 1px #fff;
   font-weight: bold;
   text-align: center;
   letter-spacing: 1px;
@@ -296,9 +292,15 @@ body {
   text-transform: none;
 }
 
-.button-yellow:hover {
-  background-color: #fae85a;
-  color: #959393;
+.button-primary {
+  background-color: rgba(66, 66, 66, .9);
+  color: #c3a6ff;
+  transition: all 0.45s ease;
+}
+
+.button-primary:hover {
+  background-color: rgba(66, 66, 66, .4);
+  color: #7f4dec;
 }
 
 .section-rest {
