@@ -453,13 +453,13 @@ body {
   }
 
   .about-section {
-    padding-top: 260px;
+    padding-top: 300px;
     padding-bottom: 160px;
     max-width: 100%;
   }
 
   .about-main {
-    grid-row-gap: 300px;
+    grid-row-gap: 220px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     margin-left: 12px;
