@@ -647,8 +647,7 @@ body {
 }
 
 .projects-section {
-  filter: opacity(1);
-  margin-top: 180px;
+  margin-top: 120px;
 }
 
 .section-bg {
@@ -660,10 +659,10 @@ body {
 }
 
 .projects-section h3 {
-  color: #000;
-  font-size: 40px;
+  font-size: 2.5em;
   font-family: "Etna", "Franklin Gothic Medium", sans-serif;
-  text-shadow: 0.85px 0.85px 0.65px #fff;
+  font-weight: normal;
+  color: white;
   transition: all 0.45s ease;
 }
 
@@ -675,11 +674,12 @@ body {
 
 .projects-highlight {
   position: absolute;
-  top: -5px;
-  left: 51%;
-  transform: translateX(-51%);
-  width: 400px;
-  z-index: -1;
+    top: -5px;
+    left: 55%;
+    transform: translateX(-51%);
+    width: 450px;
+    filter:opacity(.35);
+    z-index: -1;
 }
 
 .projects-wrapper {
