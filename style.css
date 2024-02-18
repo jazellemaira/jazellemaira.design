@@ -659,7 +659,7 @@ body {
 }
 
 .projects-section h3 {
-  font-size: 2.5em;
+  font-size: 2.35em;
   font-family: "Etna", "Franklin Gothic Medium", sans-serif;
   font-weight: normal;
   color: white;
@@ -698,9 +698,8 @@ body {
 }
 
 .project-content {
-  width: 80%;
-  min-height: 400px;
-  padding: 30px 30px 120px 30px;
+  width: 300px;
+  padding: 30px;
   border-radius: 10px;
   transition: all 650ms ease;
   color: #fff;
@@ -708,16 +707,16 @@ body {
 }
 
 #fair-aware {
-  background-image: linear-gradient(135deg, #f0deba, #a575e2);
+  background-image: linear-gradient(135deg, #161616, #424242);
 }
 
 #postreview {
-  background-image: linear-gradient(25deg, #f9f4e8, #f8d67f);
+  background-image: linear-gradient(25deg, #32302e, #161616);
 }
 
 .project-content:hover {
   background-color: #141414;
-  box-shadow: 6px 6px 7px 6px #141414;
+  box-shadow: 6px 6px 9px rgb(0, 0, 0, .3);
 }
 
 .project-image {
@@ -726,42 +725,36 @@ body {
   display: block;
   object-fit: cover;
   filter: opacity(0.65);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   box-shadow: 0 16px 25px 0 rgba(0, 0, 0, 0.46);
   transition: transform 500ms ease;
 }
 
 .project-image:hover {
   box-shadow: 0 16px 25px 0 rgba(0, 0, 0, 0.49);
-  transform: scale(1.1);
+  transform: scale(1.2);
   filter: opacity(1);
 }
 
 .project-title {
-  margin-top: 0px;
-  color: #20222e;
+  color: #ab90e6;
   font-family: "Nourd", sans-serif;
-  font-size: 26px;
+  font-size: 1.75em;
   font-weight: bolder;
-  text-shadow: 0.55px 0.55px 0.45px #fff;
   transition: all 0.65s ease;
 }
 
 .category-text {
   color: #8b5af1;
   font-family: "Nourd", sans-serif;
-  font-size: 16px;
+  font-size: 1.2em;
   letter-spacing: 0.3px;
-  text-shadow: 0.25px 0.25px 0.35px #fff;
 }
 
 .project-summary {
-  color: #343333;
   font-family: "Nourd", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 1.15em;
   text-align: center;
-  text-shadow: 0.25px 0.25px 0.25px #fff;
   letter-spacing: 0.2px;
   margin-top: 10px;
 }
@@ -774,26 +767,21 @@ body {
 .button-black {
   padding: 10px 14px;
   display: inline-block;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 50px;
-  border-color: #fff;
-  background-color: rgba(32, 34, 46, 0);
+  border-radius: 5px;
+  background-color: rgba(50, 73, 67, 0.3);
   box-shadow: 4px 4px 15px -5px #000;
-  opacity: 1;
-  font-family: "Nourd", sans-serif;
-  color: #343333;
-  text-shadow: 0.25px 0.25px 0.25px #fff;
-  font-size: 14px;
+  color: #a9dfd2;
+  font-size: 1em;
   font-weight: bold;
   text-align: center;
   letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .button-black:hover {
-  background-color: #fff;
-  background-image: none;
-  color: #b686f4;
+  background-color: #324943;
+  color: white;
 }
 
 #myBtn {
