@@ -404,16 +404,16 @@ body {
   }
 
   .hero-text h1 {
-    font-size: 30px;
+    font-size: 2.15em;
   }
 
   .hero-text h2 {
-    font-size: 26px;
+    font-size: 1.85em;
   } 
 
   .hero-text p {
     max-width: 90%;
-    font-size: 16px;
+    font-size: 1.3em;
   }
 
   .hero-image {
@@ -466,7 +466,7 @@ body {
 
   .socials-container i {
     margin-top: 30px;
-    margin-left: 58px;
+    margin-left: 40px;
   }
 }
 
@@ -625,7 +625,7 @@ body {
 
 .steps-title {
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 1.35em;
   font-weight: bold;
   color: white;
   color: #ab90e6;
