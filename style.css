@@ -788,11 +788,11 @@ body {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 40px;
+  right: 35px;
   z-index: 99;
   border: none;
-  background-color: #ab90e6;
+  background-color: rgba(171, 144, 230, .5);
   cursor: pointer;
   padding: 20px;
   border-radius: 100%;
@@ -801,8 +801,8 @@ body {
 }
 
 #myBtn:hover {
-  background-color: rgb(138, 91, 241, 0.85);
-  box-shadow: 2px 2px 15px #8b5af1;
+  background-color: rgba(157, 116, 248, 0.85);
+  box-shadow: 2px 2px 15px #000;
 }
 
 #up-arrow {
