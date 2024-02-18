@@ -442,9 +442,9 @@ body {
   }
 
   #right-end {
-    margin-left: 120px;
+    margin-left: 160px;
   }
-}
+    }
 
 @media screen and (max-width: 991px) {
   .hero-container {
@@ -465,8 +465,15 @@ body {
   }
 
   .socials-container i {
-    margin-top: 30px;
-    margin-left: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .socials-container.copyright {
+    display: flex;
+    position: absolute;
+    transform: translateX(-80%);
   }
 }
 
@@ -549,7 +556,7 @@ body {
 }
 
 .socials-container i:hover {
-  color: #8b5af1;
+  color: #7f4dec;
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -811,7 +818,7 @@ body {
 
 .footer {
   padding: 50px 2% 40px;
-  background: linear-gradient(rgb(229, 219, 215, 0), rgb(23, 22, 22));
+  background: linear-gradient(rgb(158 125 228 / 12%), rgb(0 0 0));
 }
 
 .footer-container {
@@ -833,20 +840,17 @@ body {
 }
 
 .footer-signature {
-  color: #141414;
+  color: #a9dfd2;
   font-family: "Eyesome-Script", sans-serif;
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: bold;
-  text-shadow: 1px 1px 0.85px #fff;
   transition: all 0.65s ease;
 }
 
 .footer-caption {
   width: 80%;
   margin-bottom: 10px;
-  color: #141414;
-  text-shadow: 0.25px 0.25px 100px #ffffff;
-  font-size: 17px;
+  font-size: 1.15em;
   line-height: 24px;
   font-weight: 200;
 }
@@ -854,14 +858,14 @@ body {
 .footer-link {
   display: inline-block;
   font-family: "Nourd", sans-serif;
-  color: #141414;
+  color: #3e5b53;
   font-weight: 700;
   text-decoration: none;
   transition: color 0.75s ease;
 }
 
 .footer-link:hover {
-  color: #8b5af1;
+  color: #a9dfd2;
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -889,8 +893,8 @@ body {
 }
 
 .copyright-container p {
-  color: rgb(171, 144, 230, 0.65);
-  text-align: end;
+  color: rgb(171, 144, 230, 0.45);
+  text-align: right;
 }
 
 .bottom-section {
@@ -900,26 +904,25 @@ body {
 .socials-wrapper-bottom {
   display: flex;
   position: relative;
-}
+  top: 6rem;
+  left: 152%;
+  transform: translateX(-100%);
+  }
 
 .socials-container.copyright {
   display: flex;
   position: absolute;
-  top: 6rem;
-  left: 94%;
-  transform: translateX(-94%);
-  justify-content: space-between;
 }
 
 .socials-container.copyright i {
-  color: #141414;
-  text-shadow: 0.35px 0.35px 0.25px #fff;
+  color: #c3a6ff;
+  text-shadow: 0.35px 0.35px 0.25px #000000;
   transition: color 0.85s ease;
 }
 
 .socials-container.copyright i:hover {
-  color: #8b5af1;
-  text-shadow: 1px 1px 1px #000;
+  color: #7f4dec;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .copyright-icons {
@@ -928,6 +931,6 @@ body {
 }
 
 .copyright-icons:hover {
-  color: #8b5af1;
+  color: #7f4dec;
   text-shadow: 1px 1px 1px #000;
 }
