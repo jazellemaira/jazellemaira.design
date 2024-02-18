@@ -651,9 +651,10 @@ body {
 }
 
 .section-bg {
-  max-width: 90%;
+  width: 900px;
+  max-width: 120%;
   position: absolute;
-  filter: opacity(0.65);
+  filter: opacity(0.55);
   overflow-x: hidden;
   z-index: -1;
 }
