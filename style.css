@@ -565,37 +565,35 @@ body {
 
 .steps-grid {
   display: grid;
-  max-width: 90%;
-  margin-top: 280px;
+  max-width: 70%;
+  margin-top: 180px;
   margin-right: auto;
   margin-left: auto;
   grid-auto-columns: 1fr;
   grid-column-gap: 50px;
-  grid-row-gap: 160px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-template-rows: auto;
 }
 
 .steps-box {
   padding: 0;
   border-radius: 20px;
-  background-color: #20222e;
-  text-shadow: 0.25px 0.25px 0.25px #fff;
-  box-shadow: 1px 1px 8px #fff;
+  box-shadow: 1px 1px 8px #222222;
   text-align: center;
   transition: all 900ms ease-in-out;
 }
 
 #step-one {
-  background-image: linear-gradient(125deg, #ac75da, #d48db4);
+  background-image: linear-gradient(339deg, #101010, #324943);
 }
 
 #step-two {
-  background-image: linear-gradient(75deg, #a0b2d0, #8b6be5);
+  background-image: linear-gradient(150deg, #161616, #461b579b);
 }
 
 #step-three {
-  background-image: linear-gradient(145deg, #f0deba, #a575e2);
+  background-image: linear-gradient(215deg, #324943, #313030ba);
 }
 
 .steps-box:hover {
@@ -606,13 +604,12 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 30px 10px;
+  padding: 50px 0 30px 0;
   z-index: 3;
-  color: #20222e;
 }
 
 .caption-box img {
-  max-width: 360px;
+  max-width: 260px;
   position: absolute;
   top: -180px;
   left: 51%;
@@ -622,7 +619,7 @@ body {
 }
 
 #lotus {
-  width: 190px;
+  width: 170px;
   top: -105px;
 }
 
@@ -630,12 +627,13 @@ body {
   padding-bottom: 10px;
   font-size: 20px;
   font-weight: bold;
-  text-shadow: 0.45px 0.45px 0.45px #fff;
+  color: white;
+  color: #ab90e6;
+  text-shadow: 2px 2px 2px #161616;
   transition: all 0.65s ease;
 }
 
 .caption-box p {
-  color: #343333;
   width: 80%;
   margin: 0 auto;
   font-size: 1.15em;
