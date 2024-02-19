@@ -189,7 +189,7 @@ body {
 .hero {
   position: relative;
   min-height: 70vh;
-  padding: 180px 2% 50px;
+  padding: 150px 2% 50px;
   align-items: center;
   justify-content: center;
   background-color: rgb(10, 10, 10, 0.85);
