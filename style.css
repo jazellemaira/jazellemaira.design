@@ -716,7 +716,7 @@ body {
 }
 
 .project-content {
-  width: 300px;
+  max-width: 200px;
   padding: 30px;
   border-radius: 10px;
   transition: all 650ms ease;
@@ -750,7 +750,7 @@ body {
 
 .project-image:hover {
   box-shadow: 0 16px 25px 0 rgba(0, 0, 0, 0.49);
-  transform: scale(1.2);
+  transform: scale(1.1);
   filter: opacity(1);
 }
 
