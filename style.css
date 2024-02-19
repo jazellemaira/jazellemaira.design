@@ -692,11 +692,11 @@ body {
 
 .projects-highlight {
   position: absolute;
-  top: -5px;
+  top: 2px;
   left: 55%;
   transform: translateX(-51%);
-  width: 450px;
-  filter: opacity(0.35);
+  width: 400px;
+  filter: grayscale(.7);
   z-index: -1;
 }
 
